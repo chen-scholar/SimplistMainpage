@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN" data-font-state="pending">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SSH</title>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+  </head>
+  <body data-page="ssh">
+    <div class="page-shell">
+      <aside class="sidebar" aria-label="Site navigation">
+        <div class="sidebar__top">
+          <a class="avatar-card" href="/home/" aria-label="Go to home">
+            <img class="avatar-card__image" alt="Avatar preview">
+            <span class="avatar-card__fallback">[avatar]</span>
+          </a>
+          <a class="sidebar__title" href="/home/">your.name</a>
+          <nav class="sidebar__nav">
+            <ul class="nav-list" data-nav-list></ul>
+          </nav>
+        </div>
+        <footer class="sidebar__footer" data-footer-text></footer>
+      </aside>
+
+      <main class="content-shell">
+        <div class="content-shell__loading" data-loading>
+          <span class="loading-line"></span>
+          <span class="loading-text">页面马上就出来了...</span>
+        </div>
+        <article class="markdown-body" data-content></article>
+      </main>
+    </div>
+
+    <script type="module" src="/assets/scripts/app.js"></script>
+  </body>
+</html>

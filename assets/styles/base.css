@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Ubuntu Sans Mono Medium";
+  src: url("/fonts/ubuntu-sans-mono-medium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  min-height: 100%;
+  background: var(--color-content-bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--color-content-bg);
+  color: var(--color-content-text);
+  font-family: var(--font-text);
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-text);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 160ms ease, opacity 160ms ease;
+}
+
+a:hover {
+  color: #1668b3;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid rgba(47, 137, 220, 0.65);
+  outline-offset: 3px;
+}
+
+code,
+pre {
+  font-family: var(--font-en);
+}

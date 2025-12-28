@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+  --color-sidebar-bg: #171826;
+  --color-sidebar-text: #f5f4f1;
+  --color-sidebar-muted: rgba(245, 247, 255, 0.537);
+  --color-content-bg: #f5f4f1;
+  --color-content-text: #2c2b31;
+  --color-content-soft: #66626f;
+  --color-accent: #2f89dc;
+  --color-border: rgba(23, 24, 38, 0.12);
+  --color-loading: rgba(47, 137, 220, 0.18);
+  --shadow-soft: 0 24px 64px rgba(23, 24, 38, 0.08);
+  --radius-card: 28px;
+  --sidebar-width: min(27rem, 34vw);
+  --content-width: 50rem;
+  --space-1: 0.35rem;
+  --space-2: 0.65rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --font-en-fallback: system-ui, "Segoe UI", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-zh: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", system-ui, sans-serif;
+  --font-body: var(--font-zh);
+  --font-en: var(--font-en-fallback);
+  --font-text: var(--font-en), var(--font-body);
+}
+
+html[data-font-state="ready"] {
+  --font-en: "Ubuntu Sans Mono Medium", var(--font-en-fallback);
+}

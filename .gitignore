@@ -1,0 +1,56 @@
+.DS_Store
+Thumbs.db
+AGENTS.md
+docs/
+/scripts/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.output/
+.nuxt/
+.next/
+.svelte-kit/
+coverage/
+storybook-static/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Tooling cache
+.cache/
+.temp/
+tmp/
+temp/
+.vite/
+.turbo/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Package manager files
+.pnpm-store/
+.npm/
+.yarn/
+
+# Test artifacts
+playwright-report/
+test-results/
+
+# Editor files
+.idea/
+.vscode/
