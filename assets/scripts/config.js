@@ -1,9 +1,10 @@
+// 整个站点集中在这一个对象里管，省的到处找配置
 export const siteConfig = {
   siteTitle: "Chenscholar",
   footerText: "© 2025 ChenchunHei. All rights reserved.",
   avatarPath: "/avatar.webp",
   fontPath: "/fonts/ubuntu-sans-mono-medium.woff",
-  fontTimeoutMs: 10_000,
+  fontTimeoutMs: 10_000,   // 字体 10 秒还没加载好就放弃，宁可先用后备字体
   pages: [
     { id: "home", label: "/home", href: "/home/", markdown: "/content/home.md", title: "Home" },
     { id: "contact", label: "/contact", href: "/contact/", markdown: "/content/contact.md", title: "Contact" },

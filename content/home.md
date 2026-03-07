@@ -2,7 +2,7 @@
 
 这里是 Chenscholar 的个人主页。
 
-我是一个来自中国香港的准大学生，对计算机、软件/Web开发、骑行、摄影感兴趣。
+我是一个来自中国香港的准大学生，对计算机、软件/Web 开发、骑行、摄影感兴趣。
 
 这是我的极简风格个人主页，上面放了些小东西。[（已开源至 GitHub）](https://github.com/chen-scholar/SimplistMainpage)。
 
