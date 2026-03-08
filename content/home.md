@@ -8,7 +8,7 @@
 
 我的个人博客在这个子域名上：[ChenScholar's Dev Blogs](https://blog.chenscholar.top)，持续装修中……
 
-如需联系，在 [/contact]( ./contact ) 中能找到我的几个联系方式。但——没事别发骚扰邮件！
+如需联系，在 [/contact]( /contact ) 中能找到我的几个联系方式。但——没事别发骚扰邮件！
 
 ## 🧰 I'm working on...
 
