@@ -20,17 +20,17 @@
 
   
 
-- 在继续折腾家里 PVE 架构的 All-in-one Home Server💥
+- 在继续折腾家里 PVE 架构的 AIO Home Server💥
 
 ## 🗒️ Recent OSS Projects
 
 ### 这是我最近在做的开源项目
 
-### [MultiAns](https://github.com/chen-scholar/multians)
+### [MultiAIAns](https://github.com/chen-scholar/multiaians)
 
 - 轻量的多 AI 模型对比协同的问答工具。
 - 同一个问题，可以同时问多个 AI 模型，把回答放在一起看，最大程度避免单个模型的幻觉和片面性，更加全面的看待问题。
-- 不只是“用 AI”，而是一个让 AI 互相优化的系统 —— 这个项目本身不少代码就是用 Agent 辅助完成的。
+- 不只是“用 AI”，而是一个让 AI 互相优化的系统 —— 这个项目本身不少代码就是用 Claude Code  辅助完成的。
 - 还在开发迭代中，目前还只是个 Prototype，能跑起来，但功能还没完整实现。Web Demo 和详细开发计划在 README 中。
 
 ### [biliTopicMonitor](https://github.com/chen-scholar/biliTopicMonitor)
@@ -44,4 +44,4 @@
 
 - 全新重构无框架个人主页，架构清晰，维护性强，加载极快
 - 极简风格，舒适的颜色和字体搭配，提供出色百搭的质感
-- 第一次使用 Codex App 辅助开发～
+- 第一次使用 Codex App 辅助开发，和 Claude Code 截然不同的体验
