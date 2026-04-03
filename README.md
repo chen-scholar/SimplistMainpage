@@ -15,3 +15,8 @@
 - 改 `content/*.md` 写各栏目内容
 - 把头像放到根目录的 `avatar.webp`
 - 按需改 `assets/scripts/config.js` 和 `assets/styles/variables.css`
+
+## TBD
+- 完善的文档
+- 更好的扩展性
+- 插件系统（Maybe？）
